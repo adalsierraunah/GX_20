@@ -1,0 +1,47 @@
+/*Primera Regla CSS para el Body*/
+body{
+    background-color: thistle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    background-color: azure;
+}
+
+#imagen{
+    background-color: brown;
+}
+
+.MisDivs{
+    background-color: aqua;
+}
+
+table{
+    border: 1px solid blue;
+}
+th{
+    border: 2px solid red;
+}
+
+td{
+    border: 1.5px solid green;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+}
+
+li a{
+display: block;
+color: blueviolet;
+padding: 8px 0 8px 16px;
+text-decoration: none;
+}
+
+li a:hover{
+    background: #555;
+    color: beige;
+}

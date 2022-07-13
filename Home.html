@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Registro</title>
+    <link rel="stylesheet" href="MisEstilos.css">
+    <script src="MisFunciones.js"></script>
+    
+</head>
+
+<body>
+    <div class="header">
+        <h2>
+            Universidad Nacional Autónoma de Honduras.
+        </h2>
+        <div class="MisDivs">
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="https://registro.unah.edu.hn/pro_login.aspx">Página de Registro</a></li>
+                        <li><a href="https://campusvirtual.unah.edu.hn/login/index.php">Campus UNAH</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <div id="imagen" class="MisDivs">
+            <img src="https://registro.unah.edu.hn/images/banner-superior.jpg" alt="No Imagen">
+        </div>
+    </div>
+    <hr>
+    <div class="forms">
+        <form action="">
+            <label for="" id="MiNombre">Nombre</label>
+            <input type="text">
+            <br>
+            <label for="">Apellido</label>
+            <input type="text">
+            <br>
+            <label for="">Fecha Registro</label>
+            <input type="date" name="" id="">
+            <br>
+            <input type="button" value="Agregar" id="MiBoton">
+        </form>
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>José</td>
+                    <td>Sierra</td>
+                    <td>12/12/2021</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Flores</td>
+                    <td>21/09/2021</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <button  onclick="FechaActual()">Fecha Actual</button>
+        <button  onclick="Suma()">Sumar</button>
+    </div>
+    <hr>
+    <div class="MisDivs">
+        <p id="MiParrafo">Derechos Reservados UNAH 20222</p>
+    </div>
+</body>
+
+</html>
