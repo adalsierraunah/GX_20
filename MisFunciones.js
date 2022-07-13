@@ -10,8 +10,12 @@ document.getElementById("MiBoton").addEventListener('click', function(){
 //Mi Segundo Evento....
 document.getElementById("MiParrafo").addEventListener('click', cambiartexto);
 
-}
+}//Fin del AddEvenListener
 
+function cambiartexto(){
+
+    document.getElementById("MiNombre").innerHTML = "Derechos Reservados Universidad Pedagógica FM 2021";
+}
 
 function FechaActual(){
     var Fecha = new Date();
